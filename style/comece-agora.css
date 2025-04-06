@@ -1,0 +1,12 @@
+.comece-agora{
+  width: 100%;
+  max-width: 1200px;
+  margin: 60px auto;
+  text-align: center;
+}
+
+.comece-agora h4{
+  font-size: 40px;
+  color: #032A35;
+  margin-bottom: 45px;
+}

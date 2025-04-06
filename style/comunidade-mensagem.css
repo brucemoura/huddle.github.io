@@ -1,0 +1,17 @@
+.comunidade-mensagem{
+  width: 100%;
+  max-width: 1200px;
+  margin: 60px auto;
+  padding: 1.25rem;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+}
+
+.comunidade-mensagem h2{
+  font-size: 4.5rem;
+}
+
+.comunidade-mensagem p{
+  font-size: 1.25rem;
+}

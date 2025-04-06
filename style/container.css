@@ -1,0 +1,59 @@
+.container-1, .container-2, .container-3{
+  width: 100%;
+  max-width: 1200px;
+  margin: 60px auto;
+  display: grid;
+  grid-template-columns: minmax(200px, 550px) auto;
+  gap: 50px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container-1-outside{
+  background-color: #F6FBFF;
+}
+.container-1-outside::before{
+  content: '';
+  width: 100%;
+  height: 200px;
+  display: block;
+  background-image: url(../images/bg-section-top-desktop-1.jpg);
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.container-1-outside::after{
+  content: '';
+  width: 100%;
+  height: 200px;
+  display: block;
+  background-image: url(../images/bg-section-bottom-desktop-1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container-3-outside{
+  background-color: #F6FBFF;
+}
+.container-3-outside::before{
+  content: '';
+  width: 100%;
+  height: 200px;
+  display: block;
+  background-image: url(../images/bg-section-top-desktop-2.jpg);
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.container-3-outside::after{
+  content: '';
+  width: 100%;
+  height: 200px;
+  display: block;
+  background-image: url(../images/bg-section-bottom-desktop-2.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
